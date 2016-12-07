@@ -18,14 +18,14 @@ Diese Erweiterung nimmt den Inhalt ein Feldes und nutz diesen Inhalt (eine E-Mai
 Example of a Configuration as Form Content
 ============================================
 
-
+```
 method = post
 prefix = tx_form
 confirmation = 0
 postProcessor {
     1 = mail
     1 {
-        ccEmailField = email
+        ccEmailField = email # uses field named "email"
         recipientEmail = noise@taywa.ch
         senderEmail = noise@taywa.ch
         subject = Test of ccEmailField
@@ -52,7 +52,7 @@ postProcessor {
     name = submit
     value = Submit
 }
-
+```
 
 Link to Extension Repository
 ========================
