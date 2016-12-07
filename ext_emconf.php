@@ -1,6 +1,6 @@
 <?php
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Add ccEmailField to postProcessor of the sysext Form',
+	'title' => 'Add ccEmailField to postProcessor of sysext Form',
 	'description' => 'This extension takes the content a field and uses this content (an e-mail address) when sending the form as CC address',
 	'category' => 'plugin',
 	'state' => 'stable',
