@@ -1,0 +1,27 @@
+{
+  "name": "taywa/ccemailfield",
+  "type": "typo3-cms-extension",
+  "description": "This extension takes the content a field and uses this content (an e-mail address) when sending the form as CC address",
+  "homepage": "https://typo3.org/extensions/repository/view/taywa_ccemailfield",
+  "license": [
+      "Public Domain"
+  ],
+  "keywords": [
+      "TYPO3 CMS",
+      "Form"
+  ],
+  "authors": [
+      {
+          "name": "Fabian Thommen",
+          "email": "ft@taywa.ch",
+          "role": "Developer"
+      }
+  ],
+  "support": {
+      "issues": "https://github.com/taywa/t3ext-taywa_ccemailfield"
+  },
+  "require": {
+      "typo3/cms-core": "^6.2||^7.6||^8.7||^9.5",
+      "typo3/cms-form": "^6.2||^7.6||^8.7||^9.5"
+  }
+}
