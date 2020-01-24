@@ -23,5 +23,10 @@
   "require": {
       "typo3/cms-core": "^6.2||^7.6||^8.7||^9.5",
       "typo3/cms-form": "^6.2||^7.6||^8.7||^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+       "Taywa\\Ccemailfield\\": "Classes"
+    }
   }
 }
